@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'CustomApp';
+  title = 'Angular App';
+  myname: string = "Java Complete Reference";
+  mycolor: string = "red";
+  
 }
